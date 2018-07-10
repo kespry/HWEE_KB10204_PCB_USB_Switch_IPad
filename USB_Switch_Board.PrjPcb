@@ -46,7 +46,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -73,6 +73,40 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IHVLMPPD
 
+[Document3]
+DocumentPath=Kespry_PCB.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document4]
+DocumentPath=Kespry_PCBA.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=51BCB941-14AC-4726-AAD6-35A2EBFEFA63
 Description=Standard
@@ -91,161 +125,165 @@ ParamVariation2=ParameterName=Rated Voltage|VariantValue==rated_voltage_temp + V
 ParamDesignator2=C4
 ParamVariationCount=2
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for USB_Switch_Board\Design Rule Check - USB_Switch_Board.html
+DItemRevisionGUID=
+
 [Parameter1]
-Name=Address1
-Value=4005 Bohannon Dr.
+Name=PCBA_Title
+Value=PCBA, USB Switch, IPad
 
 [Parameter2]
-Name=Address2
-Value=Menlo Park, CA 94025
+Name=PCBA_Rev
+Value=A
 
 [Parameter3]
-Name=Company
-Value=Kespry
+Name=PCBA_Part_Number
+Value=KB10205
 
 [Parameter4]
-Name=PCB_Approved_By
-Value=-
+Name=PCB_Title
+Value=PCB, USB Switch, IPad
 
 [Parameter5]
-Name=PCB_Approved_By_Date
-Value=--/--/--
+Name=PCB_Thickness
+Value=62mil
 
 [Parameter6]
-Name=PCB_Checked_By
-Value=-
+Name=PCB_Stackup
+Value=SEE BELOW
 
 [Parameter7]
-Name=PCB_Checked_By_Date
-Value=--/--/--
-
-[Parameter8]
-Name=PCB_Copper_Weight_Inner
-Value=SEE STACKUP
-
-[Parameter9]
-Name=PCB_Copper_Weight_Outer
-Value=SEE STACKUP
-
-[Parameter10]
-Name=PCB_Drawn_By
-Value=Daniel Soski
-
-[Parameter11]
-Name=PCB_Drawn_By_Date
-Value=--/--/--
-
-[Parameter12]
-Name=PCB_Drill_Largest
+Name=PCB_SMT_Min_Pitch
 Value=-
 
+[Parameter8]
+Name=PCB_SMT_Min_Pad
+Value=-
+
+[Parameter9]
+Name=PCB_Silk_Top
+Value=WHITE EPOXY INK
+
+[Parameter10]
+Name=PCB_Silk_Bottom
+Value=WHITE EPOXY INK
+
+[Parameter11]
+Name=PCB_Rev
+Value=A
+
+[Parameter12]
+Name=PCB_Released_By_Date
+Value=--/--/--
+
 [Parameter13]
-Name=PCB_Drill_Smallest
+Name=PCB_Released_By
 Value=-
 
 [Parameter14]
-Name=PCB_Drill_Total_Sizes
-Value=-
+Name=PCB_PTH_TOLERANCE
+Value=+3mil/-FHS
 
 [Parameter15]
-Name=PCB_Dwg_Number
-Value=-
+Name=PCB_Part_Number
+Value=KB10204
 
 [Parameter16]
-Name=PCB_Finish_Plating
-Value=HASL
+Name=PCB_NPTH_TOLERANCE
+Value=+/- 3mil
 
 [Parameter17]
-Name=PCB_Impedance_controlled
-Value=No
+Name=PCB_Min_Trace_Width
+Value=6mil
 
 [Parameter18]
-Name=PCB_Layer_Count
-Value=2
+Name=PCB_Min_Space_Width
+Value=6mil
 
 [Parameter19]
-Name=PCB_Mask_Color
-Value=Black
+Name=PCB_Material
+Value=FR4
 
 [Parameter20]
 Name=PCB_Mask_Type
 Value=LPI
 
 [Parameter21]
-Name=PCB_Material
-Value=FR4
+Name=PCB_Mask_Color
+Value=Black
 
 [Parameter22]
-Name=PCB_Min_Space_Width
-Value=6mil
+Name=PCB_Layer_Count
+Value=2
 
 [Parameter23]
-Name=PCB_Min_Trace_Width
-Value=6mil
+Name=PCB_Impedance_controlled
+Value=No
 
 [Parameter24]
-Name=PCB_NPTH_TOLERANCE
-Value=+/- 3mil
+Name=PCB_Finish_Plating
+Value=HASL
 
 [Parameter25]
-Name=PCB_Part_Number
-Value=KD10306
+Name=PCB_Dwg_Number
+Value=-
 
 [Parameter26]
-Name=PCB_PTH_TOLERANCE
-Value=+3mil/-FHS
+Name=PCB_Drill_Total_Sizes
+Value=-
 
 [Parameter27]
-Name=PCB_Released_By
+Name=PCB_Drill_Smallest
 Value=-
 
 [Parameter28]
-Name=PCB_Released_By_Date
-Value=--/--/--
+Name=PCB_Drill_Largest
+Value=-
 
 [Parameter29]
-Name=PCB_Rev
-Value=A
+Name=PCB_Drawn_By_Date
+Value=--/--/--
 
 [Parameter30]
-Name=PCB_Silk_Bottom
-Value=WHITE EPOXY INK
+Name=PCB_Drawn_By
+Value=Min Hsiao
 
 [Parameter31]
-Name=PCB_Silk_Top
-Value=WHITE EPOXY INK
+Name=PCB_Copper_Weight_Outer
+Value=SEE STACKUP
 
 [Parameter32]
-Name=PCB_SMT_Min_Pad
-Value=-
+Name=PCB_Copper_Weight_Inner
+Value=SEE STACKUP
 
 [Parameter33]
-Name=PCB_SMT_Min_Pitch
-Value=-
+Name=PCB_Checked_By_Date
+Value=--/--/--
 
 [Parameter34]
-Name=PCB_Stackup
-Value=SEE BELOW
+Name=PCB_Checked_By
+Value=-
 
 [Parameter35]
-Name=PCB_Thickness
-Value=62mil
+Name=PCB_Approved_By_Date
+Value=--/--/--
 
 [Parameter36]
-Name=PCB_Title
-Value=PCB, BOSON BREAKOUT
+Name=PCB_Approved_By
+Value=-
 
 [Parameter37]
-Name=PCBA_Part_Number
-Value=KD10308
+Name=Company
+Value=Kespry
 
 [Parameter38]
-Name=PCBA_Rev
-Value=A
+Name=Address2
+Value=Menlo Park, CA 94025
 
 [Parameter39]
-Name=PCBA_Title
-Value=PCBA, BOSON BREAKOUT
+Name=Address1
+Value=4005 Bohannon Dr.
 
 [Configuration1]
 Name=PCB
@@ -1054,36 +1092,6 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Ansoft Neutral
-OutputName10=Ansoft Neutral (AutoPCB)
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-OutputType11=HyperLynx
-OutputName11=HyperLynx (AutoPCB)
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=Orcad v7 Capture Design
-OutputName12=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=P-CAD ASCII
-OutputName13=P-CAD ASCII (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=P-CAD V16 Schematic Design
-OutputName14=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=SiSoft
-OutputName15=SiSoft (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1896,14 +1904,14 @@ UpdateVariants=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=GND|NetColor=$0000BE00
+Net1=NetName=VBUS|NetColor=clYellow
 Net2=NetName=V3-3|NetColor=$006E6EFF
 Net3=NetName=V5|NetColor=$000083FD
 Net4=NetName=V3p3|NetColor=$006E6EFF
 Net5=NetName=VSYS|NetColor=clYellow
 Net6=NetName=VMC|NetColor=$00FF6EFF
 Net7=NetName=V1p8|NetColor=$00FF6EFF
-Net8=NetName=VBUS|NetColor=clYellow
+Net8=NetName=GND|NetColor=$0000BE00
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
