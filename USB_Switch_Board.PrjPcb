@@ -39,6 +39,11 @@ IncludeDesignInRelease=0
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
+[Release]
+ReleaseTarget=1
+ReleaseFolderPath=[OutputPath]
+ReleaseZipPath=[OutputPath][ProjectName].zip
+
 [Document1]
 DocumentPath=Top.SchDoc
 AnnotationEnabled=1
@@ -112,17 +117,25 @@ UniqueID=51BCB941-14AC-4726-AAD6-35A2EBFEFA63
 Description=Standard
 AllowFabrication=1
 ParameterCount=0
-VariationCount=6
-Variation1=Designator=J2|UniqueId=\BMDTHQQX|Kind=1|AlternatePart= 
-Variation2=Designator=R3|UniqueId=\SOYFTUBH|Kind=1|AlternatePart= 
-Variation3=Designator=R2|UniqueId=\IJKRNGCO|Kind=1|AlternatePart= 
-Variation4=Designator=U3|UniqueId=\GAGWHEKP|Kind=1|AlternatePart= 
-Variation5=Designator=C5|UniqueId=\QFCQCRUI|Kind=1|AlternatePart= 
+VariationCount=14
+Variation1=Designator=J2|UniqueId=\UVBKOMTA|Kind=0|AlternatePart= 
+Variation2=Designator=R3|UniqueId=\DRHANLMM|Kind=1|AlternatePart= 
+Variation3=Designator=R2|UniqueId=\WNKRUASP|Kind=0|AlternatePart= 
+Variation4=Designator=U3|UniqueId=\AREHWBOP|Kind=0|AlternatePart= 
+Variation5=Designator=C5|UniqueId=\IDKOTBYV|Kind=0|AlternatePart= 
 ParamVariation1=ParameterName=Rated Voltage|VariantValue==rated_voltage_temp + V
 ParamDesignator1=C5
-Variation6=Designator=C4|UniqueId=\TSRUTRFC|Kind=1|AlternatePart= 
+Variation6=Designator=C4|UniqueId=\CJDXBMSJ|Kind=0|AlternatePart= 
 ParamVariation2=ParameterName=Rated Voltage|VariantValue==rated_voltage_temp + V
 ParamDesignator2=C4
+Variation7=Designator=R4|UniqueId=\LIWPPNWK|Kind=1|AlternatePart= 
+Variation8=Designator=R5|UniqueId=\YJWDGUSA|Kind=1|AlternatePart= 
+Variation9=Designator=R6|UniqueId=\KDXHJHTJ|Kind=1|AlternatePart= 
+Variation10=Designator=R8|UniqueId=\GYRFWBBU|Kind=1|AlternatePart= 
+Variation11=Designator=C1|UniqueId=\NSGAGPPU|Kind=1|AlternatePart= 
+Variation12=Designator=C2|UniqueId=\CPYNNPCV|Kind=1|AlternatePart= 
+Variation13=Designator=F1|UniqueId=\EIRJEULT|Kind=1|AlternatePart= 
+Variation14=Designator=F2|UniqueId=\SNMSEJCU|Kind=1|AlternatePart= 
 ParamVariationCount=2
 
 [GeneratedDocument1]
@@ -291,24 +304,7 @@ ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=CAD31A71-8018-4FBE-A29F-A0FBE85B614E
 Variant=[No Variations]
-OutputJobsCount=2
-DocumentReferenceClass1=DocumentReference
-OutputJobFileName1=PCB_Images.OutJob
-DocumentReferenceClass2=ManagedDocumentReference
-OutputJobFileName2=Kespry_PCB-2.OutJob
-VaultGUID2=C3E2B072-AA5F-4E38-BAF0-5843F7C64A5B
-VaultHRID2=Kespry Vault
-ItemGUID2=9526016D-9952-4A95-9E1D-8A7F39627C6A
-ItemHRID2=Kespry_PCB
-RevisionGUID2=3858C80D-707B-4F03-8806-1DF550D1474D
-RevisionHRID2=Kespry_PCB-2
-Cached_RevisionCaption2=
-Cached_RevisionDescription2=
-Cached_LifeCycleStateHRID2=New From Engineering
-Cached_LifeCycleStateGUID2=[Unknown]
-Cached_LifeCycleStateColor2=00F0FAFF
-Cached_LifeCycleStateTextColor2=00000000
-Cached_RevisionReleaseDate2=4/26/17 9:52:01 AM
+OutputJobsCount=0
 ContentTypeGUID=B953ABBB-897D-493B-96D2-85DABE1896C4
 ConfigurationType=Custom
 
@@ -318,24 +314,7 @@ ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=F9EBFFDD-F6BD-4216-BC71-58152E7DBECA
 Variant=Standard
-OutputJobsCount=2
-DocumentReferenceClass1=DocumentReference
-OutputJobFileName1=PCBA_Images.OutJob
-DocumentReferenceClass2=ManagedDocumentReference
-OutputJobFileName2=Kespry_PCBA-4.OutJob
-VaultGUID2=C3E2B072-AA5F-4E38-BAF0-5843F7C64A5B
-VaultHRID2=Kespry Vault
-ItemGUID2=ADE76414-318D-482D-9AAC-02775A166A92
-ItemHRID2=Kespry_PCBA
-RevisionGUID2=754E027D-A45F-47C4-9C63-B6E092E8F781
-RevisionHRID2=Kespry_PCBA-4
-Cached_RevisionCaption2=
-Cached_RevisionDescription2=
-Cached_LifeCycleStateHRID2=New From Engineering
-Cached_LifeCycleStateGUID2=[Unknown]
-Cached_LifeCycleStateColor2=00F0FAFF
-Cached_LifeCycleStateTextColor2=00000000
-Cached_RevisionReleaseDate2=5/12/17 5:06:39 PM
+OutputJobsCount=0
 ContentTypeGUID=B953ABBB-897D-493B-96D2-85DABE1896C4
 ConfigurationType=Custom
 
