@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Kespry_PCBA.OutJob
 Description=
-TargetOutputMedium=Files
+TargetOutputMedium=PDFs
 VariantName=Standard
-VariantScope=1
-CurrentConfigurationName=PCBA_NO_RADIO
-TargetPrinter=Canon iR ADV C3330i
+VariantScope=2
+CurrentConfigurationName=PCBA
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Files
 OutputMedium1_Type=GeneratedFiles
@@ -43,7 +43,7 @@ OutputName2=Schematic
 OutputCategory2=Documentation
 OutputDocumentPath2=[Project Physical Documents]
 OutputVariantName2=
-OutputEnabled2=0
+OutputEnabled2=1
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=1
 OutputDefault2=0
@@ -66,7 +66,7 @@ OutputName4=Assembly Drawings
 OutputCategory4=Assembly
 OutputDocumentPath4=
 OutputVariantName4=
-OutputEnabled4=0
+OutputEnabled4=1
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=5
 OutputDefault4=0
@@ -156,31 +156,31 @@ OutputName6=PCB 3D Print_Top
 OutputCategory6=Documentation
 OutputDocumentPath6=
 OutputVariantName6=
-OutputEnabled6=0
+OutputEnabled6=1
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=2
 OutputDefault6=0
-PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.20|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.46|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration6_Name1=OutputConfigurationParameter1
-Configuration6_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=50000000|ViewY=27559056|LookAtX=83173808|LookAtY=57780112|LookAtZ=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.834E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ViewConfig=
+Configuration6_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=57734264|ViewY=52533504|LookAtX=586983680|LookAtY=481667776|LookAtZ=-50000|UpX=0|UpY=1|UpZ=0|FOV=45|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.71128882860333E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ViewConfig=RECORD\3Board\2CFGALL.CONFIGURATIONKIND\33\2CFGALL.CONFIGURATIONDESC\3Altium%203D%20NB%20Black%20Configuration\2CFGALL.COMPONENTBODYREFPOINTCOLOR\316777215\2CFGALL.COMPONENTBODYSNAPPOINTCOLOR\316777215\2CFGALL.SHOWCOMPONENTSNAPMARKERS\3FALSE\2CFG3D.POSITIVETOPSOLDERMASK\3TRUE\2CFG3D.POSITIVEBOTTOMSOLDERMASK\3TRUE\2CFG3D.SHOWCOMPONENTBODIES\3SYSTEM\2CFG3D.SHOWCOMPONENTSTEPMODELS\3SYSTEM\2CFG3D.COMPONENTMODELPREFERENCE\30\2CFG3D.SHOWCOMPONENTAXES\3TRUE\2CFG3D.SHOWBOARDCORE\3TRUE\2CFG3D.SHOWBOARDPREPREG\3TRUE\2CFG3D.SHOWTOPSILKSCREEN\3TRUE\2CFG3D.SHOWBOTSILKSCREEN\3TRUE\2CFG3D.SHOWORIGINMARKER\3TRUE\2CFG3D.EYEDIST\32000\2CFG3D.SHOWCUTOUTS\3TRUE\2CFG3D.SHOWROUTETOOLPATH\3TRUE\2CFG3D.SHOWROOMS3D\3FALSE\2CFG3D.USESYSCOLORSFOR3D\3FALSE\2CFG3D.WORKSPACECOLOR\311840160\2CFG3D.BOARDCORECOLOR\313491161\2CFG3D.BOARDPREPREGCOLOR\30\2CFG3D.TOPSOLDERMASKCOLOR\30\2CFG3D.BOTSOLDERMASKCOLOR\30\2CFG3D.COPPERCOLOR\33323360\2CFG3D.TOPSILKSCREENCOLOR\315461355\2CFG3D.BOTSILKSCREENCOLOR\315461355\2CFG3D.WORKSPACELUMINANCEVARIATION\330\2CFG3D.WORKSPACEBEGINCOLOR\313683397\2CFG3D.WORKSPACEENDCOLOR\39931646\2CFG3D.WORKSPACECOLOROPACITY\31.000000\2CFG3D.BOARDCORECOLOROPACITY\30.820000\2CFG3D.BOARDPREPREGCOLOROPACITY\30.500000\2CFG3D.TOPSOLDERMASKCOLOROPACITY\30.900000\2CFG3D.BOTSOLDERMASKCOLOROPACITY\30.900000\2CFG3D.COPPERCOLOROPACITY\31.000000\2CFG3D.TOPSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOTSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOARDTHICKNESSSCALING\31.000000\2CFG3D.SHOWMECHANICALLAYERS\3FALSE\2CFG3D.MECHANICALLAYERSOPACITY\31.000000
 OutputType7=PCB 3D Print
 OutputName7=PCB 3D Print_Bottom
 OutputCategory7=Documentation
 OutputDocumentPath7=
 OutputVariantName7=
-OutputEnabled7=0
+OutputEnabled7=1
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=3
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.20|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.46|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration7_Name1=OutputConfigurationParameter1
-Configuration7_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=50000000|ViewY=27559056|LookAtX=83173808|LookAtY=57780112|LookAtZ=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.834E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ViewConfig=
+Configuration7_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=57734264|ViewY=52533504|LookAtX=585600512|LookAtY=481667776|LookAtZ=661999.9375|UpX=0|UpY=1|UpZ=0|FOV=45|QuatX=0|QuatY=1|QuatZ=0|QuatW=0|Zoom=1.71128882860333E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ViewConfig=RECORD\3Board\2CFGALL.CONFIGURATIONKIND\33\2CFGALL.CONFIGURATIONDESC\3Altium%203D%20NB%20Black%20Configuration\2CFGALL.COMPONENTBODYREFPOINTCOLOR\316777215\2CFGALL.COMPONENTBODYSNAPPOINTCOLOR\316777215\2CFGALL.SHOWCOMPONENTSNAPMARKERS\3FALSE\2CFG3D.POSITIVETOPSOLDERMASK\3TRUE\2CFG3D.POSITIVEBOTTOMSOLDERMASK\3TRUE\2CFG3D.SHOWCOMPONENTBODIES\3SYSTEM\2CFG3D.SHOWCOMPONENTSTEPMODELS\3SYSTEM\2CFG3D.COMPONENTMODELPREFERENCE\30\2CFG3D.SHOWCOMPONENTAXES\3TRUE\2CFG3D.SHOWBOARDCORE\3TRUE\2CFG3D.SHOWBOARDPREPREG\3TRUE\2CFG3D.SHOWTOPSILKSCREEN\3TRUE\2CFG3D.SHOWBOTSILKSCREEN\3TRUE\2CFG3D.SHOWORIGINMARKER\3TRUE\2CFG3D.EYEDIST\32000\2CFG3D.SHOWCUTOUTS\3TRUE\2CFG3D.SHOWROUTETOOLPATH\3TRUE\2CFG3D.SHOWROOMS3D\3FALSE\2CFG3D.USESYSCOLORSFOR3D\3FALSE\2CFG3D.WORKSPACECOLOR\311840160\2CFG3D.BOARDCORECOLOR\313491161\2CFG3D.BOARDPREPREGCOLOR\30\2CFG3D.TOPSOLDERMASKCOLOR\30\2CFG3D.BOTSOLDERMASKCOLOR\30\2CFG3D.COPPERCOLOR\33323360\2CFG3D.TOPSILKSCREENCOLOR\315461355\2CFG3D.BOTSILKSCREENCOLOR\315461355\2CFG3D.WORKSPACELUMINANCEVARIATION\330\2CFG3D.WORKSPACEBEGINCOLOR\313683397\2CFG3D.WORKSPACEENDCOLOR\39931646\2CFG3D.WORKSPACECOLOROPACITY\31.000000\2CFG3D.BOARDCORECOLOROPACITY\30.820000\2CFG3D.BOARDPREPREGCOLOROPACITY\30.500000\2CFG3D.TOPSOLDERMASKCOLOROPACITY\30.900000\2CFG3D.BOTSOLDERMASKCOLOROPACITY\30.900000\2CFG3D.COPPERCOLOROPACITY\31.000000\2CFG3D.TOPSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOTSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOARDTHICKNESSSCALING\31.000000\2CFG3D.SHOWMECHANICALLAYERS\3FALSE\2CFG3D.MECHANICALLAYERSOPACITY\31.000000
 OutputType8=Pick Place
 OutputName8=Pick and Place
 OutputCategory8=Assembly
 OutputDocumentPath8=
 OutputVariantName8=
-OutputEnabled8=1
+OutputEnabled8=0
 OutputEnabled8_OutputMedium1=2
 OutputEnabled8_OutputMedium2=0
 OutputDefault8=0
@@ -191,7 +191,7 @@ OutputName9=Conformal Coating Drawings
 OutputCategory9=Assembly
 OutputDocumentPath9=
 OutputVariantName9=
-OutputEnabled9=0
+OutputEnabled9=1
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=6
 OutputDefault9=0
@@ -216,7 +216,7 @@ OutputName10=BOM (Arena)
 OutputCategory10=Report
 OutputDocumentPath10=
 OutputVariantName10=Standard_US
-OutputEnabled10=1
+OutputEnabled10=0
 OutputEnabled10_OutputMedium1=1
 OutputEnabled10_OutputMedium2=0
 OutputDefault10=0
@@ -238,7 +238,7 @@ OutputName11=BOM
 OutputCategory11=Report
 OutputDocumentPath11=
 OutputVariantName11=Standard_US
-OutputEnabled11=1
+OutputEnabled11=0
 OutputEnabled11_OutputMedium1=3
 OutputEnabled11_OutputMedium2=0
 OutputDefault11=0
@@ -252,29 +252,31 @@ Configuration11_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFi
 Configuration11_Name4=GroupOrder
 Configuration11_Item4=Library Reference=True
 Configuration11_Name5=PCBDocument
-Configuration11_Item5=FileName=Main_Board.PcbDoc
-Configuration11_Name6=SortOrder
-Configuration11_Item6=
-Configuration11_Name7=VisibleOrder
-Configuration11_Item7=Description=196|Designator=87|Quantity=42|Consigned=75|Library Reference=102|Manufacturer1=126|Manufacturer_Part_Number1=174|Manufacturer2=43|Manufacturer_Part_Number2=174
+Configuration11_Item5=FileName=Top_Plate_White.PcbDoc
+Configuration11_Name6=PCBDocument2
+Configuration11_Item6=FileName=[PCB Document 1]
+Configuration11_Name7=SortOrder
+Configuration11_Item7=
+Configuration11_Name8=VisibleOrder
+Configuration11_Item8=Description=196|Designator=87|Quantity=42|Consigned=75|Library Reference=102|Manufacturer1=126|Manufacturer_Part_Number1=174|Manufacturer2=43|Manufacturer_Part_Number2=174
 OutputType12=PCB 3D Print
 OutputName12=PCB 3D Print_Iso
 OutputCategory12=Documentation
 OutputDocumentPath12=
 OutputVariantName12=
-OutputEnabled12=0
+OutputEnabled12=1
 OutputEnabled12_OutputMedium1=0
 OutputEnabled12_OutputMedium2=4
 OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.66|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.40|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration12_Name1=OutputConfigurationParameter1
-Configuration12_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=66444977|ViewY=41515621|LookAtX=91515600|LookAtY=61208668|LookAtZ=9286143|QuatX=0.375067979097366|QuatY=-0.375067979097366|QuatZ=0.375068098306656|QuatW=-0.760244607925415|Zoom=2.00165618430557E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=True|ViewFromTop=True|ViewConfig=
+Configuration12_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=72169248|ViewY=60517300|LookAtX=585365504|LookAtY=474345472|LookAtZ=384999.375|UpX=-0.137318924069405|UpY=0.559033811092377|UpZ=0.817694842815399|FOV=45|QuatX=0.222952529788017|QuatY=-0.835727572441101|QuatZ=-0.413249790668488|QuatW=0.284738779067993|Zoom=1.37316108091489E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=True|ViewFromTop=True|ViewConfig=RECORD\3Board\2CFGALL.CONFIGURATIONKIND\33\2CFGALL.CONFIGURATIONDESC\3Altium%203D%20NB%20Black%20Configuration\2CFGALL.COMPONENTBODYREFPOINTCOLOR\316777215\2CFGALL.COMPONENTBODYSNAPPOINTCOLOR\316777215\2CFGALL.SHOWCOMPONENTSNAPMARKERS\3FALSE\2CFG3D.POSITIVETOPSOLDERMASK\3TRUE\2CFG3D.POSITIVEBOTTOMSOLDERMASK\3TRUE\2CFG3D.SHOWCOMPONENTBODIES\3TRUE\2CFG3D.SHOWCOMPONENTSTEPMODELS\3TRUE\2CFG3D.COMPONENTMODELPREFERENCE\30\2CFG3D.SHOWCOMPONENTAXES\3TRUE\2CFG3D.SHOWBOARDCORE\3TRUE\2CFG3D.SHOWBOARDPREPREG\3TRUE\2CFG3D.SHOWTOPSILKSCREEN\3TRUE\2CFG3D.SHOWBOTSILKSCREEN\3TRUE\2CFG3D.SHOWORIGINMARKER\3TRUE\2CFG3D.EYEDIST\32000\2CFG3D.SHOWCUTOUTS\3TRUE\2CFG3D.SHOWROUTETOOLPATH\3TRUE\2CFG3D.SHOWROOMS3D\3FALSE\2CFG3D.USESYSCOLORSFOR3D\3FALSE\2CFG3D.WORKSPACECOLOR\311840160\2CFG3D.BOARDCORECOLOR\313491161\2CFG3D.BOARDPREPREGCOLOR\30\2CFG3D.TOPSOLDERMASKCOLOR\30\2CFG3D.BOTSOLDERMASKCOLOR\30\2CFG3D.COPPERCOLOR\33323360\2CFG3D.TOPSILKSCREENCOLOR\315461355\2CFG3D.BOTSILKSCREENCOLOR\315461355\2CFG3D.WORKSPACELUMINANCEVARIATION\330\2CFG3D.WORKSPACEBEGINCOLOR\313683397\2CFG3D.WORKSPACEENDCOLOR\39931646\2CFG3D.WORKSPACECOLOROPACITY\31.000000\2CFG3D.BOARDCORECOLOROPACITY\30.820000\2CFG3D.BOARDPREPREGCOLOROPACITY\30.500000\2CFG3D.TOPSOLDERMASKCOLOROPACITY\30.900000\2CFG3D.BOTSOLDERMASKCOLOROPACITY\30.900000\2CFG3D.COPPERCOLOROPACITY\31.000000\2CFG3D.TOPSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOTSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOARDTHICKNESSSCALING\31.000000\2CFG3D.SHOWMECHANICALLAYERS\3FALSE\2CFG3D.MECHANICALLAYERSOPACITY\31.000000
 OutputType13=ExportPARASOLID
 OutputName13=3D_Parasolid
 OutputCategory13=Export
 OutputDocumentPath13=
 OutputVariantName13=
-OutputEnabled13=1
+OutputEnabled13=0
 OutputEnabled13_OutputMedium1=4
 OutputEnabled13_OutputMedium2=0
 OutputDefault13=0
@@ -282,10 +284,10 @@ Configuration13_Name1=OutputConfigurationParameter1
 Configuration13_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=0|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=1|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True
 
 [PublishSettings]
-OutputFilePath1=C:\Users\Public\Documents\Altium\Main_Board\Project Outputs for Main_Board\Files\
+OutputFilePath1=\\Mac\Home\HWEE\KD10387_PCB_Top_Plate_White_Drone2\Project Outputs for Top_Plate_White\
 ReleaseManaged1=1
-OutputBasePath1=Project Outputs for Free Documents
-OutputPathMedia1=[Media Name]
+OutputBasePath1=
+OutputPathMedia1=
 OutputPathMediaValue1=
 OutputPathOutputer1=
 OutputPathOutputerPrefix1=
@@ -324,7 +326,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 
 [GeneratedFilesSettings]
-RelativeOutputPath1=C:\Users\Public\Documents\Altium\Main_Board\Project Outputs for Main_Board\Files\
+RelativeOutputPath1=\\Mac\Home\HWEE\KD10387_PCB_Top_Plate_White_Drone2\Project Outputs for Top_Plate_White\
 OpenOutputs1=0
 AddToProject1=1
 TimestampFolder1=0
