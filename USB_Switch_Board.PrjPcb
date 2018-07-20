@@ -304,7 +304,9 @@ ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=CAD31A71-8018-4FBE-A29F-A0FBE85B614E
 Variant=[No Variations]
-OutputJobsCount=0
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Kespry_PCB.OutJob
 ContentTypeGUID=B953ABBB-897D-493B-96D2-85DABE1896C4
 ConfigurationType=Custom
 
@@ -314,7 +316,9 @@ ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=F9EBFFDD-F6BD-4216-BC71-58152E7DBECA
 Variant=Standard
-OutputJobsCount=0
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Kespry_PCBA.OutJob
 ContentTypeGUID=B953ABBB-897D-493B-96D2-85DABE1896C4
 ConfigurationType=Custom
 
