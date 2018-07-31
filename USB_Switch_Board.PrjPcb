@@ -156,160 +156,160 @@ DocumentPath=Project Outputs for USB_Switch_Board\Design Rule Check - USB_Switch
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Address1
-Value=4005 Bohannon Dr.
+Name=PCBA_Title
+Value=PCBA, USB Switch, IPad
 
 [Parameter2]
-Name=Address2
-Value=Menlo Park, CA 94025
+Name=PCBA_Rev
+Value=1
 
 [Parameter3]
-Name=Company
-Value=Kespry
+Name=PCBA_Part_Number
+Value=KB10205
 
 [Parameter4]
-Name=PCB_Approved_By
-Value=-
+Name=PCB_Title
+Value=PCB, USB Switch, IPad
 
 [Parameter5]
-Name=PCB_Approved_By_Date
-Value=--/--/--
+Name=PCB_Thickness
+Value=62mil
 
 [Parameter6]
-Name=PCB_Checked_By
-Value=-
+Name=PCB_Stackup
+Value=SEE BELOW
 
 [Parameter7]
-Name=PCB_Checked_By_Date
-Value=--/--/--
-
-[Parameter8]
-Name=PCB_Copper_Weight_Inner
-Value=SEE STACKUP
-
-[Parameter9]
-Name=PCB_Copper_Weight_Outer
-Value=SEE STACKUP
-
-[Parameter10]
-Name=PCB_Drawn_By
-Value=Min Hsiao
-
-[Parameter11]
-Name=PCB_Drawn_By_Date
-Value=--/--/--
-
-[Parameter12]
-Name=PCB_Drill_Largest
+Name=PCB_SMT_Min_Pitch
 Value=-
 
+[Parameter8]
+Name=PCB_SMT_Min_Pad
+Value=-
+
+[Parameter9]
+Name=PCB_Silk_Top
+Value=WHITE EPOXY INK
+
+[Parameter10]
+Name=PCB_Silk_Bottom
+Value=WHITE EPOXY INK
+
+[Parameter11]
+Name=PCB_Rev
+Value=1
+
+[Parameter12]
+Name=PCB_Released_By_Date
+Value=--/--/--
+
 [Parameter13]
-Name=PCB_Drill_Smallest
+Name=PCB_Released_By
 Value=-
 
 [Parameter14]
-Name=PCB_Drill_Total_Sizes
-Value=-
+Name=PCB_PTH_TOLERANCE
+Value=+3mil/-FHS
 
 [Parameter15]
-Name=PCB_Dwg_Number
-Value=-
+Name=PCB_Part_Number
+Value=KB10204
 
 [Parameter16]
-Name=PCB_Finish_Plating
-Value=HASL
+Name=PCB_NPTH_TOLERANCE
+Value=+/- 3mil
 
 [Parameter17]
-Name=PCB_Impedance_controlled
-Value=No
+Name=PCB_Min_Trace_Width
+Value=6mil
 
 [Parameter18]
-Name=PCB_Layer_Count
-Value=2
+Name=PCB_Min_Space_Width
+Value=6mil
 
 [Parameter19]
-Name=PCB_Mask_Color
-Value=Black
+Name=PCB_Material
+Value=FR4
 
 [Parameter20]
 Name=PCB_Mask_Type
 Value=LPI
 
 [Parameter21]
-Name=PCB_Material
-Value=FR4
+Name=PCB_Mask_Color
+Value=Black
 
 [Parameter22]
-Name=PCB_Min_Space_Width
-Value=6mil
+Name=PCB_Layer_Count
+Value=2
 
 [Parameter23]
-Name=PCB_Min_Trace_Width
-Value=6mil
+Name=PCB_Impedance_controlled
+Value=No
 
 [Parameter24]
-Name=PCB_NPTH_TOLERANCE
-Value=+/- 3mil
+Name=PCB_Finish_Plating
+Value=HASL
 
 [Parameter25]
-Name=PCB_Part_Number
-Value=KB10204
+Name=PCB_Dwg_Number
+Value=-
 
 [Parameter26]
-Name=PCB_PTH_TOLERANCE
-Value=+3mil/-FHS
+Name=PCB_Drill_Total_Sizes
+Value=-
 
 [Parameter27]
-Name=PCB_Released_By
+Name=PCB_Drill_Smallest
 Value=-
 
 [Parameter28]
-Name=PCB_Released_By_Date
-Value=--/--/--
+Name=PCB_Drill_Largest
+Value=-
 
 [Parameter29]
-Name=PCB_Rev
-Value=A
+Name=PCB_Drawn_By_Date
+Value=--/--/--
 
 [Parameter30]
-Name=PCB_Silk_Bottom
-Value=WHITE EPOXY INK
+Name=PCB_Drawn_By
+Value=Min Hsiao
 
 [Parameter31]
-Name=PCB_Silk_Top
-Value=WHITE EPOXY INK
+Name=PCB_Copper_Weight_Outer
+Value=SEE STACKUP
 
 [Parameter32]
-Name=PCB_SMT_Min_Pad
-Value=-
+Name=PCB_Copper_Weight_Inner
+Value=SEE STACKUP
 
 [Parameter33]
-Name=PCB_SMT_Min_Pitch
-Value=-
+Name=PCB_Checked_By_Date
+Value=--/--/--
 
 [Parameter34]
-Name=PCB_Stackup
-Value=SEE BELOW
+Name=PCB_Checked_By
+Value=-
 
 [Parameter35]
-Name=PCB_Thickness
-Value=62mil
+Name=PCB_Approved_By_Date
+Value=--/--/--
 
 [Parameter36]
-Name=PCB_Title
-Value=PCB, USB Switch, IPad
+Name=PCB_Approved_By
+Value=-
 
 [Parameter37]
-Name=PCBA_Part_Number
-Value=KB10205
+Name=Company
+Value=Kespry
 
 [Parameter38]
-Name=PCBA_Rev
-Value=A
+Name=Address2
+Value=Menlo Park, CA 94025
 
 [Parameter39]
-Name=PCBA_Title
-Value=PCBA, USB Switch, IPad
+Name=Address1
+Value=4005 Bohannon Dr.
 
 [Configuration1]
 Name=PCB
