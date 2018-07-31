@@ -117,7 +117,7 @@ UniqueID=51BCB941-14AC-4726-AAD6-35A2EBFEFA63
 Description=Standard
 AllowFabrication=1
 ParameterCount=0
-VariationCount=12
+VariationCount=27
 Variation1=Designator=R3|UniqueId=\DRHANLMM|Kind=1|AlternatePart= 
 Variation2=Designator=C5|UniqueId=\IDKOTBYV|Kind=0|AlternatePart= 
 ParamVariation1=ParameterName=Rated Voltage|VariantValue==rated_voltage_temp + V
@@ -134,6 +134,21 @@ Variation9=Designator=C2|UniqueId=\CPYNNPCV|Kind=1|AlternatePart=
 Variation10=Designator=F1|UniqueId=\EIRJEULT|Kind=1|AlternatePart= 
 Variation11=Designator=F2|UniqueId=\SNMSEJCU|Kind=1|AlternatePart= 
 Variation12=Designator=C11|UniqueId=\PPQYTYHA|Kind=1|AlternatePart= 
+Variation13=Designator=TP5|UniqueId=\CGGUIJRO|Kind=1|AlternatePart= 
+Variation14=Designator=TP10|UniqueId=\RTNVYWKF|Kind=1|AlternatePart= 
+Variation15=Designator=TP17|UniqueId=\NWLQGHTX|Kind=1|AlternatePart= 
+Variation16=Designator=TP18|UniqueId=\YJGDOUPY|Kind=1|AlternatePart= 
+Variation17=Designator=TP13|UniqueId=\MVWJNCSA|Kind=1|AlternatePart= 
+Variation18=Designator=TP14|UniqueId=\WATYGFWN|Kind=1|AlternatePart= 
+Variation19=Designator=TP8|UniqueId=\AMRCLMRC|Kind=1|AlternatePart= 
+Variation20=Designator=TP9|UniqueId=\TAKASYEO|Kind=1|AlternatePart= 
+Variation21=Designator=TP11|UniqueId=\GSMXPUQV|Kind=1|AlternatePart= 
+Variation22=Designator=TP12|UniqueId=\CRGBHOWK|Kind=1|AlternatePart= 
+Variation23=Designator=TP3|UniqueId=\KURBLITA|Kind=1|AlternatePart= 
+Variation24=Designator=TP4|UniqueId=\KNEKUBCX|Kind=1|AlternatePart= 
+Variation25=Designator=TP6|UniqueId=\MQBXALRX|Kind=1|AlternatePart= 
+Variation26=Designator=TP2|UniqueId=\QEYIKMPU|Kind=1|AlternatePart= 
+Variation27=Designator=TP1|UniqueId=\WDQKAHCI|Kind=1|AlternatePart= 
 ParamVariationCount=2
 
 [GeneratedDocument1]
