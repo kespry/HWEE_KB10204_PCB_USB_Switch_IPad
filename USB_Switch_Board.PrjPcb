@@ -117,7 +117,7 @@ UniqueID=51BCB941-14AC-4726-AAD6-35A2EBFEFA63
 Description=Standard
 AllowFabrication=1
 ParameterCount=0
-VariationCount=23
+VariationCount=24
 Variation1=Designator=R3|UniqueId=\DRHANLMM|Kind=0|AlternatePart= 
 Variation2=Designator=C5|UniqueId=\IDKOTBYV|Kind=0|AlternatePart= 
 ParamVariation1=ParameterName=Rated Voltage|VariantValue==rated_voltage_temp + V
@@ -145,6 +145,7 @@ Variation20=Designator=TP6|UniqueId=\MQBXALRX|Kind=1|AlternatePart=
 Variation21=Designator=TP2|UniqueId=\QEYIKMPU|Kind=1|AlternatePart= 
 Variation22=Designator=TP1|UniqueId=\WDQKAHCI|Kind=1|AlternatePart= 
 Variation23=Designator=R7|UniqueId=\YUYMJYIW|Kind=1|AlternatePart= 
+Variation24=Designator=C13|UniqueId=\UKNGDEIN|Kind=1|AlternatePart= 
 ParamVariationCount=2
 
 [GeneratedDocument1]
@@ -1896,14 +1897,14 @@ UpdateVariants=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=GND|NetColor=$0000BE00
+Net1=NetName=VBUS|NetColor=clYellow
 Net2=NetName=V3-3|NetColor=$006E6EFF
 Net3=NetName=V5|NetColor=$000083FD
 Net4=NetName=V3p3|NetColor=$006E6EFF
 Net5=NetName=VSYS|NetColor=clYellow
 Net6=NetName=VMC|NetColor=$00FF6EFF
 Net7=NetName=V1p8|NetColor=$00FF6EFF
-Net8=NetName=VBUS|NetColor=clYellow
+Net8=NetName=GND|NetColor=$0000BE00
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
