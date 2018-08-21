@@ -19,7 +19,7 @@ Name=Kespry_PCBA.OutJob
 Description=
 TargetOutputMedium=PDFs
 VariantName=Standard
-VariantScope=2
+VariantScope=1
 CurrentConfigurationName=PCBA
 TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
@@ -282,11 +282,21 @@ OutputEnabled13_OutputMedium2=0
 OutputDefault13=0
 Configuration13_Name1=OutputConfigurationParameter1
 Configuration13_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=0|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=1|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True
+OutputType14=PCBDrawing
+OutputName14=Draftsman
+OutputCategory14=Documentation
+OutputDocumentPath14=AssemblyDrawing.DwfDot
+OutputVariantName14=
+OutputEnabled14=0
+OutputEnabled14_OutputMedium1=0
+OutputEnabled14_OutputMedium2=0
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [PublishSettings]
 OutputFilePath1=\\Mac\Home\HWEE\KD10387_PCB_Top_Plate_White_Drone2\Project Outputs for Top_Plate_White\
 ReleaseManaged1=1
-OutputBasePath1=
+OutputBasePath1=Project Outputs for USB_Switch_Board
 OutputPathMedia1=
 OutputPathMediaValue1=
 OutputPathOutputer1=
