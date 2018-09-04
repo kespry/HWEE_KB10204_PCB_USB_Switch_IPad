@@ -185,7 +185,7 @@ UniqueID=51BCB941-14AC-4726-AAD6-35A2EBFEFA63
 Description=Standard
 AllowFabrication=1
 ParameterCount=0
-VariationCount=19
+VariationCount=26
 Variation1=Designator=C5|UniqueId=\IDKOTBYV|Kind=0|AlternatePart= 
 ParamVariation1=ParameterName=Rated Voltage|VariantValue==rated_voltage_temp + V
 ParamDesignator1=C5
@@ -200,16 +200,27 @@ Variation7=Designator=C11|UniqueId=\PPQYTYHA|Kind=1|AlternatePart=
 Variation8=Designator=TP17|UniqueId=\NWLQGHTX|Kind=1|AlternatePart= 
 Variation9=Designator=TP13|UniqueId=\MVWJNCSA|Kind=1|AlternatePart= 
 Variation10=Designator=TP8|UniqueId=\AMRCLMRC|Kind=1|AlternatePart= 
-Variation11=Designator=TP11|UniqueId=\GSMXPUQV|Kind=1|AlternatePart= 
-Variation12=Designator=TP12|UniqueId=\CRGBHOWK|Kind=1|AlternatePart= 
-Variation13=Designator=TP3|UniqueId=\KURBLITA|Kind=1|AlternatePart= 
-Variation14=Designator=TP4|UniqueId=\KNEKUBCX|Kind=1|AlternatePart= 
-Variation15=Designator=TP6|UniqueId=\MQBXALRX|Kind=1|AlternatePart= 
-Variation16=Designator=TP2|UniqueId=\QEYIKMPU|Kind=1|AlternatePart= 
-Variation17=Designator=TP1|UniqueId=\WDQKAHCI|Kind=1|AlternatePart= 
-Variation18=Designator=R7|UniqueId=\YUYMJYIW|Kind=1|AlternatePart= 
-Variation19=Designator=C13|UniqueId=\UKNGDEIN|Kind=1|AlternatePart= 
+Variation11=Designator=TP11|UniqueId=\WEURRFFP|Kind=1|AlternatePart= 
+Variation12=Designator=TP3|UniqueId=\KURBLITA|Kind=1|AlternatePart= 
+Variation13=Designator=TP4|UniqueId=\KNEKUBCX|Kind=1|AlternatePart= 
+Variation14=Designator=TP6|UniqueId=\MQBXALRX|Kind=1|AlternatePart= 
+Variation15=Designator=TP2|UniqueId=\QEYIKMPU|Kind=1|AlternatePart= 
+Variation16=Designator=TP1|UniqueId=\WDQKAHCI|Kind=1|AlternatePart= 
+Variation17=Designator=R7|UniqueId=\YUYMJYIW|Kind=1|AlternatePart= 
+Variation18=Designator=C13|UniqueId=\UKNGDEIN|Kind=1|AlternatePart= 
+Variation19=Designator=C12|UniqueId=\MUEUSVFG|Kind=1|AlternatePart= 
+Variation20=Designator=R12|UniqueId=\KIUDJLXP|Kind=1|AlternatePart= 
+Variation21=Designator=R10|UniqueId=\UKHXRUEA|Kind=1|AlternatePart= 
+Variation22=Designator=R9|UniqueId=\QTOYVVYR|Kind=1|AlternatePart= 
+Variation23=Designator=TP10|UniqueId=\OFFQBGBB|Kind=1|AlternatePart= 
+Variation24=Designator=TP5|UniqueId=\YDNCCNWG|Kind=1|AlternatePart= 
+Variation25=Designator=TP7|UniqueId=\BVDPPULK|Kind=1|AlternatePart= 
+Variation26=Designator=TP9|UniqueId=\OIYHKEHH|Kind=1|AlternatePart= 
 ParamVariationCount=2
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for USB_Switch_Board\Design Rule Check - USB_Switch_Board.html
+DItemRevisionGUID=
 
 [Parameter1]
 Name=Address1
