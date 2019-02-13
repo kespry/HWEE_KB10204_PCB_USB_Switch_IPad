@@ -1154,6 +1154,36 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=Ansoft Neutral
+OutputName10=Ansoft Neutral (AutoPCB)
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=HyperLynx
+OutputName11=HyperLynx (AutoPCB)
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=Orcad v7 Capture Design
+OutputName12=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=P-CAD ASCII
+OutputName13=P-CAD ASCII (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=P-CAD V16 Schematic Design
+OutputName14=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=SiSoft
+OutputName15=SiSoft (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1966,17 +1996,17 @@ UpdateVariants=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=GND|NetColor=$0000BE00
+Net1=NetName=VBUS|NetColor=clYellow
 Net2=NetName=V3-3|NetColor=$006E6EFF
 Net3=NetName=V5|NetColor=$000083FD
-Net4=NetName=V3p3|NetColor=$006E6EFF
-Net5=NetName=V_BUS|NetColor=$006E6EFF
+Net4=NetName=V_BUS|NetColor=$006E6EFF
+Net5=NetName=V3p3|NetColor=$006E6EFF
 Net6=NetName=VSYS|NetColor=clYellow
 Net7=NetName=V_RC_Data|NetColor=clYellow
 Net8=NetName=VMC|NetColor=$00FF6EFF
 Net9=NetName=V_IPad|NetColor=$00FF6EFF
 Net10=NetName=V1p8|NetColor=$00FF6EFF
-Net11=NetName=VBUS|NetColor=clYellow
+Net11=NetName=GND|NetColor=$0000BE00
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
